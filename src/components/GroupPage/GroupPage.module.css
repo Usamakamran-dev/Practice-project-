@@ -1,0 +1,99 @@
+.groupPage{
+    height: 100vh;
+    max-height: 100vh;
+    box-sizing: border-box;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    padding-right: 4rem;
+    max-width: 100%;
+    width: 100%;
+}
+
+.groupPageHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.groupListGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 2rem;
+    overflow-y: scroll;
+    padding-right: 1rem;
+    max-width: 100%;
+}
+
+
+ /* !...............................Group Item Grid ............................. */
+
+.groupItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1.5px solid black;
+    background-color: rgb(226, 219, 210);
+    padding-left: 1rem;
+    border-radius: 0.5rem;
+    max-width: 100%;
+}
+
+.groupNameImage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 1.2rem;
+}
+
+.groupNameImage h1{
+   font-size: 1.5rem;
+   font-weight: var(--font-weight-medium);
+   width: 10rem;
+}
+
+.groupitemLabels{
+    display: flex;
+    flex-direction: column;
+}
+
+.incomingMoney{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 1.3rem;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0 0.5rem 0 0;
+}
+
+.incomingMoney label{
+  color: white;
+  font-size: 1rem;
+}
+
+
+.outcomingMoney{
+    display: flex;
+    flex-direction: row;
+    padding: 1.3rem;
+    align-items: center;
+    justify-content: space-around;
+    border-left: 1.5px solid black;
+    border-radius: 0 0 0.5rem 0;
+}
+
+.outcomingMoney label{
+  color: black;
+  font-size: 1rem;
+}
+
+
+
+
+
+

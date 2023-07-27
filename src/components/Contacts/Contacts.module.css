@@ -1,0 +1,94 @@
+
+.contacts{
+height: 100vh;
+max-height: 100vh;
+box-sizing: border-box;
+padding: 2rem 0;
+display: flex;
+flex-direction: column;
+row-gap: 3rem;
+padding-right: 4rem;
+max-width: 100%;
+width: 100%;
+}
+
+
+.contactsHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.headerBtnIcon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1.2rem;
+}
+
+.contactsList{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.contactListheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+
+}
+
+.contactListheader h2{
+    font-weight: var(--font-weight-regular);
+    font-size: 1rem;
+    color: rgba(0,0,0,0.5);
+}
+
+
+.singleContactData{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(226, 219, 210);
+    padding: 1rem 0;
+}
+
+
+.profileName{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 1.2rem;
+}
+
+.profileName label{
+    font-weight: var(--font-weight-regular);
+    font-size: 1rem;
+}
+
+
+.singleContactData h2{
+    font-weight: var(--font-weight-regular);
+    font-size: 1rem;
+}
+
+
+
+.singleContactData h3,h4{
+    font-weight: var(--font-weight-regular);
+    font-size: 1rem;
+}
+
+.contactListData{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}

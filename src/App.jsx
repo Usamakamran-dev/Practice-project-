@@ -1,12 +1,18 @@
-import './App.css'
+import './App.css';
+import { RouterProvider } from 'react-router-dom';
+import router from './routes/AppRoutes';
+import CreateGroupProvider from './context/CreateGroupProvider';
+import ContactProvider from './context/ContactProvider';
 
 function App() {
-  return (    
-      <div>
-         <h1>My name is usama. My</h1>
-      </div>
-
-  )
-}
+  return ( 
+    <>
+      <CreateGroupProvider>
+          <ContactProvider>
+              <RouterProvider router={router}/>
+          </ContactProvider>
+      </CreateGroupProvider>  
+    </> 
+  )}
 
 export default App;
